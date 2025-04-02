@@ -2,10 +2,12 @@
   "id": 1964171037,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-01",
+    "date:cessation_upper": "2025-04-01",
     "date:inception_lower": "2025-04-01",
     "date:inception_upper": "2025-04-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-01",
+    "edtf:cessation": "2025-04-01T00:06:09-07:00",
+    "edtf:inception": "2025-04-01T13:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-04-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N488WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96306159",
+      "swim:gufi": "KL43969300"
+    },
     "wof:country": "US",
     "wof:created": 1743610421,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -86,9 +100,10 @@
       102527513,
       102533795,
       1159285591,
-      1947304621
+      1947304621,
+      1159289869
     ],
-    "wof:lastmodified": 1743610421,
+    "wof:lastmodified": 1743615671,
     "wof:name": "WN1241 (LAX-SFO)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

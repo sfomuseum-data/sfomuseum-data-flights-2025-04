@@ -2,10 +2,12 @@
   "id": 1964177655,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-02",
+    "date:cessation_upper": "2025-04-02",
     "date:inception_lower": "2025-04-02",
     "date:inception_upper": "2025-04-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-02",
+    "edtf:cessation": "2025-04-02T14:06:06-07:00",
+    "edtf:inception": "2025-04-02T22:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-04-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.3291535,
     "geom:longitude": -104.6218995,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536223,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N597AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96432278",
+      "swim:gufi": "KH82244400"
+    },
     "wof:country": "US",
     "wof:created": 1743696412,
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
@@ -86,9 +100,10 @@
       102527513,
       102536223,
       1159283813,
-      1947304095
+      1947304095,
+      1159289871
     ],
-    "wof:lastmodified": 1743696412,
+    "wof:lastmodified": 1743698186,
     "wof:name": "AS9200 (CUN-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964179699,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-02",
+    "date:cessation_upper": "2025-04-02",
     "date:inception_lower": "2025-04-02",
     "date:inception_upper": "2025-04-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-02",
+    "edtf:cessation": "2025-04-02T08:18:00-07:00",
+    "edtf:inception": "2025-04-02T21:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250402-A-UAE-6182",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N477UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96437517",
+      "swim:gufi": "KL59723400"
+    },
     "wof:country": "US",
     "wof:created": 1743696923,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +105,10 @@
       102533795,
       1159285413,
       1947304603,
-      1159284333
+      1159284333,
+      1159292085
     ],
-    "wof:lastmodified": 1743696923,
+    "wof:lastmodified": 1743698173,
     "wof:name": "UA2603 (LAX-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

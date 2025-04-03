@@ -2,10 +2,12 @@
   "id": 1964184231,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-03",
+    "date:cessation_upper": "2025-04-03",
     "date:inception_lower": "2025-04-02",
     "date:inception_upper": "2025-04-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-02",
+    "edtf:cessation": "2025-04-03T06:00:17Z",
+    "edtf:inception": "2025-04-02T14:33:57-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-04-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N14240",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO83046400"
+    },
     "wof:country": "US",
     "wof:created": 1743698037,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964184231,
     "wof:involves": [
+      1159289871,
       102526751,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1743698037,
+    "wof:lastmodified": 1743698198,
     "wof:name": "UA8163 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

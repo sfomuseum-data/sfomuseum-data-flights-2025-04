@@ -2,10 +2,12 @@
   "id": 1964183761,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-02",
+    "date:cessation_upper": "2025-04-02",
     "date:inception_lower": "2025-04-02",
     "date:inception_upper": "2025-04-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-02",
+    "edtf:cessation": "2025-04-02T01:41:15Z",
+    "edtf:inception": "2025-04-02T00:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20250402-D-ACA-4104",
@@ -53,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96362478",
+      "swim:gufi": "KO75707300"
+    },
     "wof:country": "US",
     "wof:created": 1743697922,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -92,9 +100,10 @@
       102527513,
       1159285413,
       1947304523,
-      1159283597
+      1159283597,
+      1159289871
     ],
-    "wof:lastmodified": 1743697922,
+    "wof:lastmodified": 1743698195,
     "wof:name": "UA1786 (SFO-LAS)",
     "wof:parent_id": 1947304523,
     "wof:placetype": "custom",

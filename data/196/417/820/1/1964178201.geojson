@@ -2,10 +2,12 @@
   "id": 1964178201,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-04-02",
-    "date:inception_upper": "2025-04-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-02",
+    "date:cessation_lower": "2025-04-02",
+    "date:cessation_upper": "2025-04-02",
+    "date:inception_lower": "2025-04-03",
+    "date:inception_upper": "2025-04-03",
+    "edtf:cessation": "2025-04-02T14:36:06-07:00",
+    "edtf:inception": "2025-04-03T00:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-04-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.635332,
     "geom:longitude": -108.8251435,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531775,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N654DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KH84961400"
+    },
     "wof:country": "US",
     "wof:created": 1743696549,
     "wof:geomhash": "a5dc7134a1c5d943495b40cb1b713674",
@@ -49,9 +62,9 @@
       102527513,
       102531775,
       1159284261,
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1743696549,
+    "wof:lastmodified": 1743698194,
     "wof:name": "DL8888 (HOU-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

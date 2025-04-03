@@ -1,0 +1,72 @@
+{
+  "id": 1964180021,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-04-02",
+    "date:inception_upper": "2025-04-02",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-04-02",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-04-02",
+    "flysfo:estimated_timestamp": 1743654180,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA8154",
+    "flysfo:gate": "",
+    "flysfo:journey": "ORD-SFO",
+    "flysfo:scheduled_timestamp": 1743652260,
+    "flysfo:timestamp": 1743654180,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.894364,41.983038",
+    "geom:latitude": 39.800514,
+    "geom:longitude": -105.1326535,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102533631,
+    "sfomuseum:flight_id": "20250402-A-UAL-8154",
+    "sfomuseum:flight_number": [
+      "UAL8154",
+      "UA8154"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1743697004,
+    "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964180021,
+        "flight_id": 1964180021
+      }
+    ],
+    "wof:id": 1964180021,
+    "wof:involves": [
+      102527513,
+      102533631,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1743697004,
+    "wof:name": "UA8154 (ORD-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.894364,
+    41.983038
+  ],
+  "geometry": {"coordinates":[[-87.894364,41.983038],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

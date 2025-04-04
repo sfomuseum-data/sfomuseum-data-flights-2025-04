@@ -2,10 +2,12 @@
   "id": 1964186875,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-04-03",
-    "date:inception_upper": "2025-04-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-03",
+    "date:cessation_lower": "2025-04-03",
+    "date:cessation_upper": "2025-04-03",
+    "date:inception_lower": "2025-04-04",
+    "date:inception_upper": "2025-04-04",
+    "edtf:cessation": "2025-04-03T16:33:13-07:00",
+    "edtf:inception": "2025-04-04T05:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250403-A-AMX-3030",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N338NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96469049",
+      "swim:gufi": "KU14761602"
+    },
     "wof:country": "US",
     "wof:created": 1743782965,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964186875,
     "wof:involves": [
-      102527513,
-      102527363,
       1159284261,
       1947304677,
-      1159283539
+      1159283539,
+      1159289407,
+      102527513,
+      102527363
     ],
-    "wof:lastmodified": 1743782965,
+    "wof:lastmodified": 1743784755,
     "wof:name": "DL1091 (SLC-SFO)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",

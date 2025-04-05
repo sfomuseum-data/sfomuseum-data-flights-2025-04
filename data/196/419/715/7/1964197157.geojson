@@ -2,10 +2,12 @@
   "id": 1964197157,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-04-04",
-    "date:inception_upper": "2025-04-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-04",
+    "date:cessation_lower": "2025-04-05",
+    "date:cessation_upper": "2025-04-05",
+    "date:inception_lower": "2025-04-05",
+    "date:inception_upper": "2025-04-05",
+    "edtf:cessation": "2025-04-05T02:10:00Z",
+    "edtf:inception": "2025-04-05T01:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2025-04-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527529,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N837SY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +92,13 @@
     ],
     "wof:id": 1964197157,
     "wof:involves": [
+      1947304281,
+      1159289871,
       102527513,
       102527529,
-      1159285227,
-      1947304281
+      1159285227
     ],
-    "wof:lastmodified": 1743869742,
+    "wof:lastmodified": 1743871436,
     "wof:name": "SY8756 (SJC-SFO)",
     "wof:parent_id": 1947304281,
     "wof:placetype": "custom",

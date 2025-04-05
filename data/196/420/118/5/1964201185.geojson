@@ -2,10 +2,12 @@
   "id": 1964201185,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-05",
+    "date:cessation_upper": "2025-04-05",
     "date:inception_lower": "2025-04-04",
     "date:inception_upper": "2025-04-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-04",
+    "edtf:cessation": "2025-04-05T10:45:01Z",
+    "edtf:inception": "2025-04-04T23:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "KE",
     "flysfo:date": "2025-04-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "KE",
+    "icao:aircraft": "B789",
     "icao:airline": "KAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159284625,
     "sfomuseum:arrival_id": 102556451,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "HL8391",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96706042"
+    },
     "wof:country": "US",
     "wof:created": 1743870892,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1964201185,
     "wof:involves": [
-      102556451,
       102527513,
       1159284625,
-      1947304079
+      1947304079,
+      1159293215,
+      102556451
     ],
-    "wof:lastmodified": 1743870892,
+    "wof:lastmodified": 1743871420,
     "wof:name": "KE9026 (SFO-ICN)",
     "wof:parent_id": 1947304079,
     "wof:placetype": "custom",

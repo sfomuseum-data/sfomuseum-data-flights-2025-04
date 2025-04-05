@@ -2,10 +2,12 @@
   "id": 1964202155,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-04",
+    "date:cessation_upper": "2025-04-04",
     "date:inception_lower": "2025-04-04",
     "date:inception_upper": "2025-04-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-04",
+    "edtf:cessation": "2025-04-04T22:20:29Z",
+    "edtf:inception": "2025-04-04T20:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.2977885,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527733,
     "sfomuseum:base_flight_id": "20250404-D-ACA-3996",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N829UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96623759",
+      "swim:gufi": "KO61459600"
+    },
     "wof:country": "US",
     "wof:created": 1743871166,
     "wof:geomhash": "5c4ab4afb4473393075e7e0145a9edb2",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304603,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1743871166,
+    "wof:lastmodified": 1743871429,
     "wof:name": "UA2496 (SFO-BOI)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

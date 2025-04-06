@@ -2,10 +2,12 @@
   "id": 1964205467,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-05",
+    "date:cessation_upper": "2025-04-05",
     "date:inception_lower": "2025-04-05",
     "date:inception_upper": "2025-04-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-05",
+    "edtf:cessation": "2025-04-05T19:49:04Z",
+    "edtf:inception": "2025-04-05T07:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AZ",
     "flysfo:date": "2025-04-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.707441,
     "geom:longitude": -55.0628825,
     "iata:airline": "AZ",
+    "icao:aircraft": "A339",
     "icao:airline": "ITY",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1763699293,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102547941,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96750792"
+    },
     "wof:country": "US",
     "wof:created": 1743955890,
     "wof:geomhash": "83e3cf2d6d5d57bb8b348faf86770f57",
@@ -86,9 +96,10 @@
       102527513,
       102547941,
       1763699293,
-      1947304087
+      1947304087,
+      1393786509
     ],
-    "wof:lastmodified": 1743955890,
+    "wof:lastmodified": 1743957343,
     "wof:name": "AZ640 (FCO-SFO)",
     "wof:parent_id": 1947304087,
     "wof:placetype": "custom",

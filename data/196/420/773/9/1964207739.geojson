@@ -2,10 +2,12 @@
   "id": 1964207739,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-06",
+    "date:cessation_upper": "2025-04-06",
     "date:inception_lower": "2025-04-05",
     "date:inception_upper": "2025-04-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-05",
+    "edtf:cessation": "2025-04-06T20:55:58Z",
+    "edtf:inception": "2025-04-05T16:37:37-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2025-04-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.089972,
     "geom:longitude": -22.636412999999997,
     "iata:airline": "AI",
+    "icao:aircraft": "B77L",
     "icao:airline": "AIC",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1159289989,
     "sfomuseum:airline_id": 1159283649,
     "sfomuseum:arrival_id": 102555709,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "VTALH",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -86,9 +96,10 @@
       102555709,
       102527513,
       1159283649,
-      1947304085
+      1947304085,
+      1159289989
     ],
-    "wof:lastmodified": 1743956451,
+    "wof:lastmodified": 1743957330,
     "wof:name": "AI184 (SFO-DEL)",
     "wof:parent_id": 1947304085,
     "wof:placetype": "custom",

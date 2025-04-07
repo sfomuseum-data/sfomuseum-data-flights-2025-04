@@ -2,10 +2,12 @@
   "id": 1964219631,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-07",
+    "date:cessation_upper": "2025-04-07",
     "date:inception_lower": "2025-04-06",
     "date:inception_upper": "2025-04-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-06",
+    "edtf:cessation": "2025-04-07T01:09:00Z",
+    "edtf:inception": "2025-04-06T10:04:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-04-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N73259",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO74898100"
+    },
     "wof:country": "US",
     "wof:created": 1744043786,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964219631,
     "wof:involves": [
+      1159289871,
       102527209,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1744043786,
+    "wof:lastmodified": 1744043963,
     "wof:name": "UA8186 (SFO-LAS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

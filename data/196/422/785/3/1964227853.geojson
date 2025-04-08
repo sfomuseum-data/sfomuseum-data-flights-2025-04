@@ -2,10 +2,12 @@
   "id": 1964227853,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-07",
+    "date:cessation_upper": "2025-04-07",
     "date:inception_lower": "2025-04-07",
     "date:inception_upper": "2025-04-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-07",
+    "edtf:cessation": "2025-04-07T03:14:17Z",
+    "edtf:inception": "2025-04-07T02:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96820374"
+    },
     "wof:country": "US",
     "wof:created": 1744130019,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -94,7 +99,7 @@
       1947304603,
       1159285749
     ],
-    "wof:lastmodified": 1744130019,
+    "wof:lastmodified": 1744130288,
     "wof:name": "UA1812 (SFO-LAX)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

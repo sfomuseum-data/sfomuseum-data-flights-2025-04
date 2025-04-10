@@ -2,10 +2,12 @@
   "id": 1964241471,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-09",
+    "date:cessation_upper": "2025-04-09",
     "date:inception_lower": "2025-04-09",
     "date:inception_upper": "2025-04-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-09",
+    "edtf:cessation": "2025-04-09T22:39:00Z",
+    "edtf:inception": "2025-04-09T21:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2025-04-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N919US",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97105609",
+      "swim:gufi": "KO71113400"
+    },
     "wof:country": "US",
     "wof:created": 1744302005,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1964241471,
     "wof:involves": [
+      1159289411,
       102533795,
       102527513,
       1159283849,
       1947304317
     ],
-    "wof:lastmodified": 1744302005,
+    "wof:lastmodified": 1744303007,
     "wof:name": "AA9785 (SFO-LAX)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964244217,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-04-09",
-    "date:inception_upper": "2025-04-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-09",
+    "date:cessation_lower": "2025-04-10",
+    "date:cessation_upper": "2025-04-10",
+    "date:inception_lower": "2025-04-10",
+    "date:inception_upper": "2025-04-10",
+    "edtf:cessation": "2025-04-10T03:43:00Z",
+    "edtf:inception": "2025-04-10T02:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-04-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8819L",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96996372",
+      "swim:gufi": "KO03974500"
+    },
     "wof:country": "US",
     "wof:created": 1744302674,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1964244217,
     "wof:involves": [
-      102533795,
       102527513,
       1159285591,
-      1947304621
+      1947304621,
+      1528104575,
+      102533795
     ],
-    "wof:lastmodified": 1744302674,
+    "wof:lastmodified": 1744303024,
     "wof:name": "WN4417 (SFO-LAX)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

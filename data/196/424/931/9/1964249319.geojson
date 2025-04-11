@@ -2,10 +2,12 @@
   "id": 1964249319,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-10",
+    "date:cessation_upper": "2025-04-10",
     "date:inception_lower": "2025-04-10",
     "date:inception_upper": "2025-04-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-10",
+    "edtf:cessation": "2025-04-10T06:01:03-07:00",
+    "edtf:inception": "2025-04-10T19:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250410-A-ANA-7353",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N490UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97140675",
+      "swim:gufi": "KL53333500"
+    },
     "wof:country": "US",
     "wof:created": 1744388232,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +106,10 @@
       102533795,
       1159285413,
       1947304483,
-      1159283875
+      1159283875,
+      1159292085
     ],
-    "wof:lastmodified": 1744388232,
+    "wof:lastmodified": 1744389582,
     "wof:name": "UA2480 (LAX-SFO)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",

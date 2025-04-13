@@ -2,10 +2,12 @@
   "id": 1964269605,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-13",
+    "date:cessation_upper": "2025-04-13",
     "date:inception_lower": "2025-04-12",
     "date:inception_upper": "2025-04-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-12",
+    "edtf:cessation": "2025-04-13T03:04:24Z",
+    "edtf:inception": "2025-04-12T13:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "BR",
     "flysfo:date": "2025-04-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "iata:airline": "BR",
+    "icao:aircraft": "B77L",
     "icao:airline": "EVA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289989,
     "sfomuseum:airline_id": 1159284349,
     "sfomuseum:arrival_id": 102551487,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "B16785",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "97341634"
+    },
     "wof:country": "US",
     "wof:created": 1744561663,
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964269605,
     "wof:involves": [
+      1159289989,
       102551487,
       102527513,
-      1159284349,
-      -1
+      1159284349
     ],
-    "wof:lastmodified": 1744561663,
+    "wof:lastmodified": 1744562192,
     "wof:name": "BR629 (SFO-TPE)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

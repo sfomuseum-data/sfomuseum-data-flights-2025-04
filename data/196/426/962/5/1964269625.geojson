@@ -1,0 +1,72 @@
+{
+  "id": 1964269625,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-04-12",
+    "date:inception_upper": "2025-04-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-04-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "F9",
+    "flysfo:date": "2025-04-12",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "F92690",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-EGE",
+    "flysfo:scheduled_timestamp": 1744488480,
+    "flysfo:timestamp": 1744488480,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-106.914310,39.641137",
+    "geom:latitude": 38.6295635,
+    "geom:longitude": -114.6426265,
+    "iata:airline": "F9",
+    "icao:airline": "FFT",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284401,
+    "sfomuseum:arrival_id": 102528809,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250412-D-FFT-2690",
+    "sfomuseum:flight_number": [
+      "FFT2690",
+      "F92690"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1744561668,
+    "wof:geomhash": "2cd389d203adb874c4263efe77e21d43",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964269625,
+        "flight_id": 1964269625
+      }
+    ],
+    "wof:id": 1964269625,
+    "wof:involves": [
+      102528809,
+      102527513,
+      1159284401,
+      -1
+    ],
+    "wof:lastmodified": 1744561668,
+    "wof:name": "F92690 (SFO-EGE)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -106.91431,
+    39.641137
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-106.91431,39.641137]],"type":"MultiPoint"}
+}

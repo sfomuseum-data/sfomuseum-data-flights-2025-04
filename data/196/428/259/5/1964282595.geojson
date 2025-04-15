@@ -2,10 +2,12 @@
   "id": 1964282595,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-14",
+    "date:cessation_upper": "2025-04-14",
     "date:inception_lower": "2025-04-14",
     "date:inception_upper": "2025-04-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-14",
+    "edtf:cessation": "2025-04-14T07:28:48-07:00",
+    "edtf:inception": "2025-04-14T17:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-04-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333439999999996,
     "geom:longitude": -106.1764705,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527185,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N650DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "97561792",
+      "swim:gufi": "KM58261201"
+    },
     "wof:country": "US",
     "wof:created": 1744733347,
     "wof:geomhash": "6d798bc66034dc17109500bf89e39585",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1964282595,
     "wof:involves": [
+      1159289939,
       102527513,
       102527185,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1744733347,
+    "wof:lastmodified": 1744734804,
     "wof:name": "DL8930 (MEM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

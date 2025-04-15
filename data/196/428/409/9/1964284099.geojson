@@ -2,10 +2,12 @@
   "id": 1964284099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-14",
+    "date:cessation_upper": "2025-04-14",
     "date:inception_lower": "2025-04-14",
     "date:inception_upper": "2025-04-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-14",
+    "edtf:cessation": "2025-04-14T07:43:06-07:00",
+    "edtf:inception": "2025-04-14T20:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250414-A-UAE-6489",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N491UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97543611",
+      "swim:gufi": "KS64724200"
+    },
     "wof:country": "US",
     "wof:created": 1744733669,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964284099,
     "wof:involves": [
-      102527513,
       102533269,
       1159285413,
       1947304529,
-      1159284333
+      1159284333,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1744733669,
+    "wof:lastmodified": 1744734810,
     "wof:name": "UA204 (SEA-SFO)",
     "wof:parent_id": 1947304529,
     "wof:placetype": "custom",

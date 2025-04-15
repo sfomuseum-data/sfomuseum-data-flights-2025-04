@@ -2,10 +2,12 @@
   "id": 1964285033,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-15",
+    "date:cessation_upper": "2025-04-15",
     "date:inception_lower": "2025-04-14",
     "date:inception_upper": "2025-04-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-14",
+    "edtf:cessation": "2025-04-15T01:44:00Z",
+    "edtf:inception": "2025-04-14T06:44:12-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:base_flight_id": "20250414-D-GLO-6303",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N120EE",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97547350",
+      "swim:gufi": "KO68596200"
+    },
     "wof:country": "US",
     "wof:created": 1744733867,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964285033,
     "wof:involves": [
-      102531023,
       102527513,
       1159283849,
       1947304317,
-      1779770725
+      1779770725,
+      1159289411,
+      102531023
     ],
-    "wof:lastmodified": 1744733867,
+    "wof:lastmodified": 1744734813,
     "wof:name": "AA2111 (SFO-MIA)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

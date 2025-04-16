@@ -2,10 +2,12 @@
   "id": 1964289935,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-15",
+    "date:cessation_upper": "2025-04-15",
     "date:inception_lower": "2025-04-15",
     "date:inception_upper": "2025-04-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-15",
+    "edtf:cessation": "2025-04-15T19:56:23Z",
+    "edtf:inception": "2025-04-15T05:25:14Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2025-04-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.3579,
     "geom:longitude": -24.752452999999996,
     "iata:airline": "AI",
+    "icao:aircraft": "B77L",
     "icao:airline": "AIC",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289989,
     "sfomuseum:airline_id": 1159283649,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555685,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "VTAEH",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97581906"
+    },
     "wof:country": "US",
     "wof:created": 1744819480,
     "wof:geomhash": "e8aee4e844e89ba8d7a176f852774210",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1964289935,
     "wof:involves": [
+      1947304079,
+      1159289989,
       102527513,
       102555685,
-      1159283649,
-      1947304079
+      1159283649
     ],
-    "wof:lastmodified": 1744819480,
+    "wof:lastmodified": 1744821398,
     "wof:name": "AI179 (BOM-SFO)",
     "wof:parent_id": 1947304079,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1964296879,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-15",
+    "date:cessation_upper": "2025-04-15",
     "date:inception_lower": "2025-04-15",
     "date:inception_upper": "2025-04-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-15",
+    "edtf:cessation": "2025-04-15T06:41:50Z",
+    "edtf:inception": "2025-04-15T03:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97547406"
+    },
     "wof:country": "US",
     "wof:created": 1744821196,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -94,7 +99,7 @@
       1947304475,
       1159286015
     ],
-    "wof:lastmodified": 1744821196,
+    "wof:lastmodified": 1744821415,
     "wof:name": "UA354 (SFO-ORD)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

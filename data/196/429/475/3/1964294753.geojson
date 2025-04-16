@@ -2,10 +2,12 @@
   "id": 1964294753,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-15",
+    "date:cessation_upper": "2025-04-15",
     "date:inception_lower": "2025-04-15",
     "date:inception_upper": "2025-04-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-15",
+    "edtf:cessation": "2025-04-15T18:58:00Z",
+    "edtf:inception": "2025-04-15T14:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.83923999999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533657,
     "sfomuseum:base_flight_id": "20250415-D-AAL-9269",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N237AK",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "97603703",
+      "swim:gufi": "KO47473300"
+    },
     "wof:country": "US",
     "wof:created": 1744820677,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 1964294753,
     "wof:involves": [
-      102533657,
       102527513,
       1159283813,
-      -1,
-      1159283849
+      1159283849,
+      1377564285,
+      102533657
     ],
-    "wof:lastmodified": 1744820677,
+    "wof:lastmodified": 1744821408,
     "wof:name": "AS368 (SFO-MCO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

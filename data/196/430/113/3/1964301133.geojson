@@ -2,10 +2,12 @@
   "id": 1964301133,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-16",
+    "date:cessation_upper": "2025-04-16",
     "date:inception_lower": "2025-04-16",
     "date:inception_upper": "2025-04-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-16",
+    "edtf:cessation": "2025-04-16T20:48:00Z",
+    "edtf:inception": "2025-04-16T18:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-04-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N19986",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "97766273",
+      "swim:gufi": "KD66133400"
+    },
     "wof:country": "US",
     "wof:created": 1744906597,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1964301133,
     "wof:involves": [
+      1159293215,
       102527513,
       102531189,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1744906597,
+    "wof:lastmodified": 1744907843,
     "wof:name": "UA3853 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

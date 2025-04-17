@@ -2,10 +2,12 @@
   "id": 1964299793,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-17",
+    "date:cessation_upper": "2025-04-17",
     "date:inception_lower": "2025-04-16",
     "date:inception_upper": "2025-04-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-16",
+    "edtf:cessation": "2025-04-17T03:30:00Z",
+    "edtf:inception": "2025-04-16T21:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-04-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A21N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N635FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97738891",
+      "swim:gufi": "KJ74055400"
+    },
     "wof:country": "US",
     "wof:created": 1744906263,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -86,9 +99,10 @@
       102527513,
       102533657,
       1159284401,
-      1947304093
+      1947304093,
+      1377564297
     ],
-    "wof:lastmodified": 1744906263,
+    "wof:lastmodified": 1744907848,
     "wof:name": "F91645 (MCO-SFO)",
     "wof:parent_id": 1947304093,
     "wof:placetype": "custom",

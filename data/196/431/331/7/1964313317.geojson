@@ -1,0 +1,72 @@
+{
+  "id": 1964313317,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-04-17",
+    "date:inception_upper": "2025-04-17",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-04-17",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AZ",
+    "flysfo:date": "2025-04-17",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AZ1234",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-FCO",
+    "flysfo:scheduled_timestamp": 1744928100,
+    "flysfo:timestamp": 1744928100,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,12.245178,41.796892",
+    "geom:latitude": 39.707441,
+    "geom:longitude": -55.0628825,
+    "iata:airline": "AZ",
+    "icao:airline": "ITY",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1763699293,
+    "sfomuseum:arrival_id": 102547941,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250417-D-ITY-1234",
+    "sfomuseum:flight_number": [
+      "ITY1234",
+      "AZ1234"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1744993900,
+    "wof:geomhash": "033526ec5f586bb6dd7c4e05cd770e88",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964313317,
+        "flight_id": 1964313317
+      }
+    ],
+    "wof:id": 1964313317,
+    "wof:involves": [
+      102547941,
+      102527513,
+      1763699293,
+      -1
+    ],
+    "wof:lastmodified": 1744993900,
+    "wof:name": "AZ1234 (SFO-FCO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    12.245178,
+    41.796892
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[12.245178,41.796892]],"type":"MultiPoint"}
+}

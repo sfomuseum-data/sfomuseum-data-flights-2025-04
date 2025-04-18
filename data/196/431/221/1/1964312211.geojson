@@ -2,10 +2,12 @@
   "id": 1964312211,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-17",
+    "date:cessation_upper": "2025-04-17",
     "date:inception_lower": "2025-04-17",
     "date:inception_upper": "2025-04-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-17",
+    "edtf:cessation": "2025-04-17T11:47:00Z",
+    "edtf:inception": "2025-04-17T09:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-04-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3794945,
     "geom:longitude": -109.520871,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533817,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N919AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97872200",
+      "swim:gufi": "KO28154500"
+    },
     "wof:country": "US",
     "wof:created": 1744993630,
     "wof:geomhash": "c88c30109e8dcfdcfe08aa4b0f4b9552",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1964312211,
     "wof:involves": [
+      1528104577,
       102533817,
       102527513,
       1159283813,
       1947304091
     ],
-    "wof:lastmodified": 1744993630,
+    "wof:lastmodified": 1744994415,
     "wof:name": "AS9722 (SFO-MHK)",
     "wof:parent_id": 1947304091,
     "wof:placetype": "custom",

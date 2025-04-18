@@ -2,10 +2,12 @@
   "id": 1964309973,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-17",
+    "date:cessation_upper": "2025-04-17",
     "date:inception_lower": "2025-04-17",
     "date:inception_upper": "2025-04-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-17",
+    "edtf:cessation": "2025-04-17T04:08:07-07:00",
+    "edtf:inception": "2025-04-17T12:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "MSR",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250417-A-MSR-9319",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N39450",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97783187",
+      "swim:gufi": "KW31795500"
+    },
     "wof:country": "US",
     "wof:created": 1744993084,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964309973,
     "wof:involves": [
+      1947304491,
+      1159284325,
+      1377564285,
       102527513,
       102528817,
-      1159285413,
-      1947304491,
-      1159284325
+      1159285413
     ],
-    "wof:lastmodified": 1744993084,
+    "wof:lastmodified": 1744994430,
     "wof:name": "UA2693 (IAD-SFO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

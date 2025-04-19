@@ -2,10 +2,12 @@
   "id": 1964316719,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-04-18",
-    "date:inception_upper": "2025-04-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-18",
+    "date:cessation_lower": "2025-04-19",
+    "date:cessation_upper": "2025-04-19",
+    "date:inception_lower": "2025-04-19",
+    "date:inception_upper": "2025-04-19",
+    "edtf:cessation": "2025-04-18T17:25:40-07:00",
+    "edtf:inception": "2025-04-19T01:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "CFG",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250418-A-CFG-5018",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N288AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KN84731600"
+    },
     "wof:country": "US",
     "wof:created": 1745078875,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964316719,
     "wof:involves": [
+      1377564285,
       102527513,
       102534365,
       1159283813,
       1947304297,
       1159284193
     ],
-    "wof:lastmodified": 1745078875,
+    "wof:lastmodified": 1745080735,
     "wof:name": "AS40 (JFK-SFO)",
     "wof:parent_id": 1947304297,
     "wof:placetype": "custom",

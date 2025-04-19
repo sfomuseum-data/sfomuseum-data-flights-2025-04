@@ -2,10 +2,12 @@
   "id": 1964316607,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-18",
+    "date:cessation_upper": "2025-04-18",
     "date:inception_lower": "2025-04-18",
     "date:inception_upper": "2025-04-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-18",
+    "edtf:cessation": "2025-04-18T03:19:23-07:00",
+    "edtf:inception": "2025-04-18T13:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250418-A-AAL-7431",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N932AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97894234",
+      "swim:gufi": "KH45793600"
+    },
     "wof:country": "US",
     "wof:created": 1745078847,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -92,9 +106,10 @@
       102521851,
       1159283813,
       1947304267,
-      1159283849
+      1159283849,
+      1528104577
     ],
-    "wof:lastmodified": 1745078847,
+    "wof:lastmodified": 1745080734,
     "wof:name": "AS1369 (AUS-SFO)",
     "wof:parent_id": 1947304267,
     "wof:placetype": "custom",

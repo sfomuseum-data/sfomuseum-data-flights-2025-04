@@ -2,10 +2,12 @@
   "id": 1964323787,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-18",
+    "date:cessation_upper": "2025-04-18",
     "date:inception_lower": "2025-04-18",
     "date:inception_upper": "2025-04-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-18",
+    "edtf:cessation": "2025-04-18T23:41:24Z",
+    "edtf:inception": "2025-04-18T06:21:52-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-04-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17583",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "97935640",
+      "swim:gufi": "KO67097600"
+    },
     "wof:country": "US",
     "wof:created": 1745080596,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -49,9 +63,9 @@
       102534097,
       102527513,
       1159285413,
-      -1
+      1528104577
     ],
-    "wof:lastmodified": 1745080596,
+    "wof:lastmodified": 1745080754,
     "wof:name": "UA8170 (SFO-IAH)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

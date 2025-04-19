@@ -1,0 +1,72 @@
+{
+  "id": 1964319289,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-04-18",
+    "date:inception_upper": "2025-04-18",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-04-18",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-04-18",
+    "flysfo:estimated_timestamp": 1745033220,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA8215",
+    "flysfo:gate": "",
+    "flysfo:journey": "STL-SFO",
+    "flysfo:scheduled_timestamp": 1745031180,
+    "flysfo:timestamp": 1745033220,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-90.367632,38.743872",
+    "geom:latitude": 38.180931,
+    "geom:longitude": -106.3692875,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 1746879059,
+    "sfomuseum:flight_id": "20250418-A-UAL-8215",
+    "sfomuseum:flight_number": [
+      "UAL8215",
+      "UA8215"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1745079506,
+    "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964319289,
+        "flight_id": 1964319289
+      }
+    ],
+    "wof:id": 1964319289,
+    "wof:involves": [
+      102527513,
+      1746879059,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1745079506,
+    "wof:name": "UA8215 (STL-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -90.367632,
+    38.743872
+  ],
+  "geometry": {"coordinates":[[-90.367632,38.743872],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

@@ -1,0 +1,72 @@
+{
+  "id": 1964318983,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-04-18",
+    "date:inception_upper": "2025-04-18",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-04-18",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-04-18",
+    "flysfo:estimated_timestamp": 1745045460,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3017",
+    "flysfo:gate": "",
+    "flysfo:journey": "ANC-SFO",
+    "flysfo:scheduled_timestamp": 1745041260,
+    "flysfo:timestamp": 1745045460,
+    "geom:area": 0,
+    "geom:bbox": "-149.968401,37.617990,-122.370943,61.173606",
+    "geom:latitude": 49.395798,
+    "geom:longitude": -136.169672,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102531979,
+    "sfomuseum:flight_id": "20250418-A-UAL-3017",
+    "sfomuseum:flight_number": [
+      "UAL3017",
+      "UA3017"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1745079434,
+    "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964318983,
+        "flight_id": 1964318983
+      }
+    ],
+    "wof:id": 1964318983,
+    "wof:involves": [
+      102527513,
+      102531979,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1745079434,
+    "wof:name": "UA3017 (ANC-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -149.968401,
+    37.61799,
+    -122.370943,
+    61.173606
+  ],
+  "geometry": {"coordinates":[[-149.968401,61.173606],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

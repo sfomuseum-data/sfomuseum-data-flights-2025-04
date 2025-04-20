@@ -2,10 +2,12 @@
   "id": 1964329753,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-19",
+    "date:cessation_upper": "2025-04-19",
     "date:inception_lower": "2025-04-19",
     "date:inception_upper": "2025-04-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-19",
+    "edtf:cessation": "2025-04-19T19:39:00Z",
+    "edtf:inception": "2025-04-19T16:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -111.9156105,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536249,
     "sfomuseum:base_flight_id": "20250419-D-HAL-6859",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N990AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "98005592",
+      "swim:gufi": "KO53354700"
+    },
     "wof:country": "US",
     "wof:created": 1745166271,
     "wof:geomhash": "18862f85a0b311b83ec5e3ef8a19bf26",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964329753,
     "wof:involves": [
-      102536249,
       102527513,
       1159283813,
       1947304285,
-      1159284489
+      1159284489,
+      1528104577,
+      102536249
     ],
-    "wof:lastmodified": 1745166271,
+    "wof:lastmodified": 1745166994,
     "wof:name": "AS467 (SFO-ZIH)",
     "wof:parent_id": 1947304285,
     "wof:placetype": "custom",

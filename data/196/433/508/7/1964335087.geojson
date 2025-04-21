@@ -2,10 +2,12 @@
   "id": 1964335087,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-20",
+    "date:cessation_upper": "2025-04-20",
     "date:inception_lower": "2025-04-20",
     "date:inception_upper": "2025-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-20",
+    "edtf:cessation": "2025-04-20T11:30:01-07:00",
+    "edtf:inception": "2025-04-20T13:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "IB",
     "flysfo:date": "2025-04-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.4570045,
     "geom:longitude": -60.1448105,
     "iata:airline": "IB",
+    "icao:aircraft": "A332",
     "icao:airline": "IBE",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284511,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102545733,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "ECODB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "98074436"
+    },
     "wof:country": "US",
     "wof:created": 1745251975,
     "wof:geomhash": "7a64189ee84e1d057c670ad6a60700c7",
@@ -86,9 +99,10 @@
       102527513,
       102545733,
       1159284511,
-      1947304083
+      1947304083,
+      1159289421
     ],
-    "wof:lastmodified": 1745251975,
+    "wof:lastmodified": 1745253635,
     "wof:name": "IB2621 (BCN-SFO)",
     "wof:parent_id": 1947304083,
     "wof:placetype": "custom",

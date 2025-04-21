@@ -2,10 +2,12 @@
   "id": 1964336297,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-20",
+    "date:cessation_upper": "2025-04-20",
     "date:inception_lower": "2025-04-20",
     "date:inception_upper": "2025-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-20",
+    "edtf:cessation": "2025-04-20T06:17:39-07:00",
+    "edtf:inception": "2025-04-20T10:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-04-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 25.5509395,
     "geom:longitude": 11.213139500000004,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102535777,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N783UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "98064880",
+      "swim:gufi": "KO67645100"
+    },
     "wof:country": "US",
     "wof:created": 1745252286,
     "wof:geomhash": "cfb34c2f58cdf1c02ffeb00ec136aa4c",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1964336297,
     "wof:involves": [
+      1159289985,
       102527513,
       102535777,
       1159285413,
       1947304137
     ],
-    "wof:lastmodified": 1745252286,
+    "wof:lastmodified": 1745253623,
     "wof:name": "UA3907 (GUM-SFO)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

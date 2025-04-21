@@ -2,10 +2,12 @@
   "id": 1964333991,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-04-20",
-    "date:inception_upper": "2025-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-20",
+    "date:cessation_lower": "2025-04-20",
+    "date:cessation_upper": "2025-04-20",
+    "date:inception_lower": "2025-04-21",
+    "date:inception_upper": "2025-04-21",
+    "edtf:cessation": "2025-04-20T15:35:28-07:00",
+    "edtf:inception": "2025-04-21T01:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250420-A-HAL-6199",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N528AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KG82636100"
+    },
     "wof:country": "US",
     "wof:created": 1745251700,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964333991,
     "wof:involves": [
+      1159289871,
       102527513,
       102533631,
       1159283813,
       1947304273,
       1159284489
     ],
-    "wof:lastmodified": 1745251700,
+    "wof:lastmodified": 1745253618,
     "wof:name": "AS597 (ORD-SFO)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",

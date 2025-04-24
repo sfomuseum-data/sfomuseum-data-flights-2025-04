@@ -1,0 +1,78 @@
+{
+  "id": 1964360803,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-04-23",
+    "date:inception_upper": "2025-04-23",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-04-23",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "BA",
+    "flysfo:base_airline": "",
+    "flysfo:base_flight_number": "5021",
+    "flysfo:date": "2025-04-23",
+    "flysfo:estimated_timestamp": 1745476680,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "BA5021",
+    "flysfo:gate": "",
+    "flysfo:journey": "MIA-SFO",
+    "flysfo:scheduled_timestamp": 1745474040,
+    "flysfo:timestamp": 1745476680,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,25.790470,-80.296006,37.617990",
+    "geom:latitude": 31.70423,
+    "geom:longitude": -101.3334745,
+    "iata:airline": "BA",
+    "iata:base_airline": "",
+    "icao:airline": "BAW",
+    "icao:base_airline": "BAW",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284021,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:base_flight_id": "20250423-A-BAW-5021",
+    "sfomuseum:departure_id": 102531023,
+    "sfomuseum:flight_id": "20250423-A-BAW-5021",
+    "sfomuseum:flight_number": [
+      "BAW5021",
+      "BA5021"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1745510923,
+    "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964360803,
+        "flight_id": 1964360803
+      }
+    ],
+    "wof:id": 1964360803,
+    "wof:involves": [
+      102527513,
+      102531023,
+      1159284021,
+      -1,
+      1159284021
+    ],
+    "wof:lastmodified": 1745510923,
+    "wof:name": "BA5021 (MIA-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    25.79047,
+    -80.296006,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-80.296006,25.79047],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

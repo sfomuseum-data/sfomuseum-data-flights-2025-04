@@ -2,10 +2,12 @@
   "id": 1964363075,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-23",
+    "date:cessation_upper": "2025-04-23",
     "date:inception_lower": "2025-04-23",
     "date:inception_upper": "2025-04-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-23",
+    "edtf:cessation": "2025-04-23T02:59:40-07:00",
+    "edtf:inception": "2025-04-23T11:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.70629299999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250423-A-ANZ-2776",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17337",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "98320770",
+      "swim:gufi": "KW28536400"
+    },
     "wof:country": "US",
     "wof:created": 1745511473,
     "wof:geomhash": "cfff966b0a5de3ca50080923c4337cfe",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964363075,
     "wof:involves": [
+      1528104575,
       102527513,
       1746879047,
       1159285413,
       1947304473,
       1159283697
     ],
-    "wof:lastmodified": 1745511473,
+    "wof:lastmodified": 1745512676,
     "wof:name": "UA635 (DCA-SFO)",
     "wof:parent_id": 1947304473,
     "wof:placetype": "custom",

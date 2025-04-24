@@ -2,10 +2,12 @@
   "id": 1964359877,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-23",
+    "date:cessation_upper": "2025-04-23",
     "date:inception_lower": "2025-04-23",
     "date:inception_upper": "2025-04-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-23",
+    "edtf:cessation": "2025-04-23T14:07:50-07:00",
+    "edtf:inception": "2025-04-23T23:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250423-A-ANZ-4737",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGVUO",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "98387917"
+    },
     "wof:country": "US",
     "wof:created": 1745510695,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1964359877,
     "wof:involves": [
+      1813375783,
       102527513,
       102555091,
       1159283597,
       1947304627,
       1159283697
     ],
-    "wof:lastmodified": 1745510695,
+    "wof:lastmodified": 1745512667,
     "wof:name": "AC745 (YYZ-SFO)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",

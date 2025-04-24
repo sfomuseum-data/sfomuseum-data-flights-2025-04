@@ -2,10 +2,12 @@
   "id": 1964363113,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-23",
+    "date:cessation_upper": "2025-04-23",
     "date:inception_lower": "2025-04-23",
     "date:inception_upper": "2025-04-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-23",
+    "edtf:cessation": "2025-04-23T01:46:55-07:00",
+    "edtf:inception": "2025-04-23T11:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250423-A-ANA-7369",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27258",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "98320807",
+      "swim:gufi": "KL28224400"
+    },
     "wof:country": "US",
     "wof:created": 1745511482,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1964363113,
     "wof:involves": [
-      102527513,
-      102536579,
       1159285413,
       1947304095,
-      1159283875
+      1159283875,
+      1528104575,
+      102527513,
+      102536579
     ],
-    "wof:lastmodified": 1745511482,
+    "wof:lastmodified": 1745512676,
     "wof:name": "UA820 (MEX-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

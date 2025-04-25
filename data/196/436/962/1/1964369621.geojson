@@ -2,10 +2,12 @@
   "id": 1964369621,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-04-24",
+    "date:cessation_upper": "2025-04-24",
     "date:inception_lower": "2025-04-24",
     "date:inception_upper": "2025-04-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-04-24",
+    "edtf:cessation": "2025-04-24T16:37:20Z",
+    "edtf:inception": "2025-04-24T11:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250424-A-AAL-9444",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "98419048"
+    },
     "wof:country": "US",
     "wof:created": 1745597314,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 1964369621,
     "wof:involves": [
+      1159289871,
       102527513,
       102528817,
       1159283813,
       1947304303,
       1159283849
     ],
-    "wof:lastmodified": 1745597314,
+    "wof:lastmodified": 1745599228,
     "wof:name": "AS458 (IAD-SFO)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",

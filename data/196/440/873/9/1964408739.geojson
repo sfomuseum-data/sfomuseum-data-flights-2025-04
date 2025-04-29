@@ -1,0 +1,72 @@
+{
+  "id": 1964408739,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-04-28",
+    "date:inception_upper": "2025-04-28",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-04-28",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WS",
+    "flysfo:date": "2025-04-28",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WS1774",
+    "flysfo:gate": "",
+    "flysfo:journey": "YVR-SFO",
+    "flysfo:scheduled_timestamp": 1745873940,
+    "flysfo:timestamp": 1745873940,
+    "geom:area": 0,
+    "geom:bbox": "-123.179200,37.617990,-122.370943,49.193330",
+    "geom:latitude": 43.40566,
+    "geom:longitude": -122.7750715,
+    "iata:airline": "WS",
+    "icao:airline": "WJA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285523,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102555307,
+    "sfomuseum:flight_id": "20250428-A-WJA-1774",
+    "sfomuseum:flight_number": [
+      "WJA1774",
+      "WS1774"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1745943680,
+    "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1964408739,
+        "flight_id": 1964408739
+      }
+    ],
+    "wof:id": 1964408739,
+    "wof:involves": [
+      102527513,
+      102555307,
+      1159285523,
+      -1
+    ],
+    "wof:lastmodified": 1745943680,
+    "wof:name": "WS1774 (YVR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -123.1792,
+    37.61799,
+    -122.370943,
+    49.19333
+  ],
+  "geometry": {"coordinates":[[-123.1792,49.19333],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
